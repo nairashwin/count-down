@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: hsl(235, 16%, 14%);
+    background-image: url("/images/bg-stars.svg");
+}
+
+#hills {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.icon-bar {
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+
+.social-media-icon {
+    margin: 0px 6%;
+}
