@@ -23,7 +23,6 @@ body {
 }
 
 .countDown {
-    /* border: 2px solid white; */
     width: 100vw;
     height: 400px;
     display: flex;
@@ -33,7 +32,6 @@ body {
 .countDown-box{
     width: 150px;
     height: 150px;
-    /* border: 2px solid white; */
     margin: 15px;
     border-radius: 5px;
     font-size: 50px;
@@ -63,5 +61,5 @@ body {
 }
 
 .social-media-icon {
-    margin: 0px 6%;
+    margin: 0px 3%;
 }
