@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Count Down</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" media="screen and (min-width:320px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width :770px)" href="./styles/index.css">
 
 </head>
 
 <body>
 
+    <h1>we're launching soon</h1>
     <img id="hills" src="/images/pattern-hills.svg" alt="">
     <div class="icon-bar">
         <img class="social-media-icon" src="/images/icon-facebook.svg" alt="">
@@ -20,6 +24,30 @@
         <img class="social-media-icon" src="/images/icon-instagram.svg" alt="">
 
     </div>
+    <div class="countDown">
+        <div class="countDown-box">
+            <div id="days" class="countDown-item"></div>
+            <p>days</p>
+        </div>
+
+        <div class="countDown-box">
+            <div id="hours" class="countDown-item"></div>
+            <p>hours</p>
+        </div>
+
+        <div class="countDown-box">
+            <div id="minutes" class="countDown-item"></div>
+            <p>minutes</p>
+
+        </div>
+
+        <div class="countDown-box">
+            <div id="seconds" class="countDown-item"></div>
+            <p>seconds</p>
+        </div>
+
+    </div>
+    <script src="/dist/index.js"></script>
 </body>
 
 </html>

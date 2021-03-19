@@ -1,3 +1,15 @@
+* {
+    font-family: 'Red Hat Text', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 6px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
 body {
     margin: 0;
     background-color: hsl(235, 16%, 14%);
@@ -8,6 +20,38 @@ body {
     width: 100vw;
     position: absolute;
     bottom: 0;
+}
+
+.countDown {
+    /* border: 2px solid white; */
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countDown-box{
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid white; */
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 50px;
+    background-color: hsl(236, 21%, 26%);
+}
+.countDown-item{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 21%;
+    color: hsl(345, 95%, 68%);
+}
+.countDown-box p {
+    text-transform: uppercase;
+    color: hsl(237, 18%, 59%);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    letter-spacing: 4px;
 }
 
 .icon-bar {
